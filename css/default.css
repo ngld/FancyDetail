@@ -48,6 +48,8 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .body>div>.WAR>.barcover>.bar *, .body>div>.WAR>.barcover>.pbar * {border-color:#921000;}
 .body>div>.DRK>.barcover>.bar, .body>div>.DRK>.barcover>.pbar {background:#642324;}
 .body>div>.DRK>.barcover>.bar *, .body>div>.DRK>.barcover>.pbar * {border-color:#642324;}
+.body>div>.GNB>.barcover>.bar, .body>div>.GNB>.barcover>.pbar {background:#642324;}
+.body>div>.GNB>.barcover>.bar *, .body>div>.GNB>.barcover>.pbar * {border-color:#642324;}
 
 .body>div>.WHM>.barcover>.bar, .body>div>.WHM>.barcover>.pbar {background:#CFB090;}
 .body>div>.WHM>.barcover>.bar *, .body>div>.WHM>.barcover>.pbar * {border-color:#CFB090;}
@@ -80,6 +82,9 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .body>div>.LMB>.barcover>.bar, .body>div>.LMB>.barcover>.pbar {background:#FFB000;}
 .body>div>.LMB>.barcover>.bar *, .body>div>.LMB>.barcover>.pbar * {border-color:#FFB000;}
 
+.body>div>.DNC>.barcover>.bar, .body>div>.DNC>.barcover>.pbar {background:#FFB000;}
+.body>div>.DNC>.barcover>.bar *, .body>div>.DNC>.barcover>.pbar * {border-color:#FFB000;}
+
 .body>div>*>.barcover>.overhealbar {background:#600000;}
 .body>div>*>.barcover>.overhealbar * {border-color:#600000;}
 
@@ -87,6 +92,7 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .body>div>.PLD>.data {color:#CFF;}
 .body>div>.WAR>.data {color:#FCA;}
 .body>div>.DRK>.data {color:#FB8;}
+.body>div>.GNB>.data {color:#FB8;}
 
 .body>div>.WHM>.data {color:#FEA;}
 .body>div>.SCH>.data {color:#EFE;}
@@ -103,6 +109,7 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .body>div>.BLM>.data {color:#EBF;}
 .body>div>.SMN>.data {color:#DF7;}
 .body>div>.RDM>.data {color:#FFF;}
+.body>div>.DNC>.data {color:#FFF;}
 
 .body>div>.YOU>.data {font-weight:bold;}
 
@@ -179,7 +186,7 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .notifyarea>.donate:hover {background:#003087;}
 
 *>.job {position:relative;}
-*>.job::after{content:" "; background:url(../image/icons.png) no-repeat; background-size:200px 100px; filter:drop-shadow(0px 0px 1px #AB7813) drop-shadow(0px 0px 1px #AB7813); -webkit-filter:drop-shadow(0px 0px 1px #AB7813) drop-shadow(0px 0px 1px #AB7813); width:20px; height:20px; position:absolute;}
+*>.job::after{content:" "; background:url(../image/icons.png) no-repeat; background-size:221px 100px; filter:drop-shadow(0px 0px 1px #AB7813) drop-shadow(0px 0px 1px #AB7813); -webkit-filter:drop-shadow(0px 0px 1px #AB7813) drop-shadow(0px 0px 1px #AB7813); width:20px; height:20px; position:absolute;}
 .LMB>.job::after {background-position:-180px -40px;}
 .Pld>.job::after {background-position:-40px -20px;}
 .Mrd>.job::after {background-position:-40px 0px;}
@@ -204,6 +211,9 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .Brd>.job::after {background-position:-20px -40px;}
 .Rdm>.job::after {background-position:-60px -80px;}
 .Mch>.job::after {background-position:-80px -60px;}
+.Gnb>.job::after {background-position:-200px 0px;}
+.Dnc>.job::after {background-position:-200px -20px;}
+
 
 .raid>.dpsarea {height:auto !important;}
 .raid>.dpsarea>div {position:relative; float:left; width:33%; box-sizing:border-box; display:inline-block; top:auto !important;}

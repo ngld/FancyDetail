@@ -27,6 +27,11 @@ var Languages = {
 			"en":"DRK BackColor",
 			"ja":"暗黒騎士 背景色"
 		},
+		"gnb":{
+			"ko":"???",
+			"en":"GNB BackColor",
+			"ja":"???"
+		},
 		"cnjwhm":{
 			"ko":"환술사, 백마도사 배경색",
 			"en":"CNJ, WHM BackColor",
@@ -102,6 +107,11 @@ var Languages = {
 			"en":"Font Color",
 			"ja":"文字色"
 		},
+		"gnbf":{
+			"ko":"글자색",
+			"en":"Font Color",
+			"ja":"文字色"
+		},
 		"cnjwhmf":{
 			"ko":"글자색",
 			"en":"Font Color",
@@ -168,6 +178,16 @@ var Languages = {
 			"ja":"リミットブレイク 背景色"
 		},
 		"lmbf":{
+			"ko":"글자색",
+			"en":"Font Color",
+			"ja":"文字色"
+		},
+		"dnc": {
+			"ko":"???",
+			"en":"DNC BackColor",
+			"ja":""
+		},
+		"dncf": {
 			"ko":"글자색",
 			"en":"Font Color",
 			"ja":"文字色"
