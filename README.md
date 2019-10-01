@@ -1,13 +1,6 @@
 # cleaveore.FancyAmethyst
 
-###### Get Stable Online Latest Version:
-> Current Stable Version: 0.4.1<br>
-> `DataCenter:KO-0.4.1` https://amethyst.ffxiv.io/<br>
-> `DataCenter:EU-0.4.1` https://eu.amethyst.ffxiv.io/
-
-###### you can get online UNSTABLE (git master version) HERE
-> Current Unstable Version: 0.4.2+<br>
-> `DataCenter:KO-0.4.2` https://amethyst.ffxiv.io/unstable/
+To use this overlay, add a MiniParse overlay in OverlayPlugin and enter https://ngld.github.io/FancyDetail/ as the URL.
 
 ###### Final Fantasy® XIV Copyright
 ```
