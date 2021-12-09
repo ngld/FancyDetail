@@ -192,6 +192,26 @@ var Languages = {
 			"en":"Font Color",
 			"ja":"文字色"
 		},
+		"sge": {
+			"ko":"",
+			"en":"SGE BackColor",
+			"ja":""
+		},
+		"sgef": {
+			"ko":"글자색",
+			"en":"Font Color",
+			"ja":"文字色"
+		},
+		"rpr": {
+			"ko":"",
+			"en":"RPR BackColor",
+			"ja":""
+		},
+		"rprf": {
+			"ko":"글자색",
+			"en":"Font Color",
+			"ja":"文字色"
+		},
 		"bgcolor":{
 			"ko":"배경색",
 			"en":"BackColor",

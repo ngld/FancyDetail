@@ -57,6 +57,8 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .body>div>.SCH>.barcover>.bar *, .body>div>.SCH>.barcover>.pbar * {border-color:#232898;}
 .body>div>.AST>.barcover>.bar, .body>div>.AST>.barcover>.pbar {background:#D98028;}
 .body>div>.AST>.barcover>.bar *, .body>div>.AST>.barcover>.pbar * {border-color:#D98028;}
+.body>div>.SGE>.barcover>.bar, .body>div>.SGE>.barcover>.pbar {background:#D98028;}
+.body>div>.SGE>.barcover>.bar *, .body>div>.SGE>.barcover>.pbar * {border-color:#D98028;}
 
 .body>div>.MNK>.barcover>.bar, .body>div>.MNK>.barcover>.pbar {background:#D9B028;}
 .body>div>.MNK>.barcover>.bar *, .body>div>.MNK>.barcover>.pbar * {border-color:#D9B028;}
@@ -84,6 +86,8 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 
 .body>div>.DNC>.barcover>.bar, .body>div>.DNC>.barcover>.pbar {background:#FFB000;}
 .body>div>.DNC>.barcover>.bar *, .body>div>.DNC>.barcover>.pbar * {border-color:#FFB000;}
+.body>div>.RPR>.barcover>.bar, .body>div>.RPR>.barcover>.pbar {background:#FFB000;}
+.body>div>.RPR>.barcover>.bar *, .body>div>.RPR>.barcover>.pbar * {border-color:#FFB000;}
 
 .body>div>*>.barcover>.overhealbar {background:#600000;}
 .body>div>*>.barcover>.overhealbar * {border-color:#600000;}
@@ -97,6 +101,7 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .body>div>.WHM>.data {color:#FEA;}
 .body>div>.SCH>.data {color:#EFE;}
 .body>div>.AST>.data {color:#FF9;}
+.body>div>.SGE>.data {color:#FF9;}
 
 .body>div>.MNK>.data {color:#FE9;}
 .body>div>.DRG>.data {color:#7CF;}
@@ -110,6 +115,7 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .body>div>.SMN>.data {color:#DF7;}
 .body>div>.RDM>.data {color:#FFF;}
 .body>div>.DNC>.data {color:#FFF;}
+.body>div>.RPR>.data {color:#FFF;}
 
 .body>div>.YOU>.data {font-weight:bold;}
 
@@ -213,6 +219,8 @@ body>.body>div>div>.shadowbar {left:37px; top:2px; right:8px;}
 .Mch>.job::after {background-position:-80px -60px;}
 .Gnb>.job::after {background-position:-200px 0px;}
 .Dnc>.job::after {background-position:-200px -20px;}
+.Sge>.job::after {background-position:-200px -40px;}
+.Rpr>.job::after {background-position:-200px -60px;}
 
 
 .raid>.dpsarea {height:auto !important;}
